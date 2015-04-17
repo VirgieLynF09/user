@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	div(class="content")
+		section(class='information')
+			h2 Charging Sign-in page:
+			div(class="form")
+				form( method='post', action="/session")
+					p Vehicle License Plate Number:
+					input(class="input", name="plateNumber", maxlength="10", required)
+					br
+					p Approximate KM since last charge:
+					input(class="input", name="approximateKm", maxlength="20", required)
+					br
+					p Charger Station Number:
+					input(class="input", name="chargerStation", maxlength="20", required)
+					br
+					p Estimated Duration of Stay:
+					input(class="input", name="duration", required)
+					input(class="input", type="hidden" name="chargeDate", required)
+					section(class='buttons') 
+						input(type='submit', class='button', value='Start Charging')

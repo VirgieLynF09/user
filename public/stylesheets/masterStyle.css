@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*import the font lato*/
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/*====body===*/
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-family: avenir, helvetica, san-serif;
+    font-family: 'Lato';
+	color: white;
+	background: rgb(0,75,135);
+	background-image: url(/images/background_249.98.png);
+	background-position: top right;
+	background-repeat:no-repeat;
+}
+
+/*======Header======*/
+header {
+	padding: 10px;
+	/*outline: 1px solid white;*/
+}
+
+/*===Section==*/
+section {
+	text-align: center;
+	/*outline: 1px dotted white;*/
+	width: 85%;
+	margin: 0 auto;
+}
+/*====H2====*/
+h2 {
+	font-size:72px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+/*===Paragraph====*/
+p {
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+/*========Section class for Information=======*/
+
+.content {
+	margin: 0 auto;
+	width: 75%px;
+	margin-bottom: 20px;
+}
+
+.information {
+	padding-bottom: 10px;
+}
+
+/*==========form class=======*/
+.form {
+    text-align: left;
+}
+
+.form .input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+	color: rgb(0,75,135);
+}
+
+.form p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 3px 0;
+}
+
+.form . radio {
+    padding: 0 5px;
+}
+/*========Options for profile=========*/
+.option {
+    color: rgb(0,75,135);
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/*====Seciton class for buttons====*/
+.buttons {
+	padding: 10px 0;
+
+}
+/*======Individual buttons=====*/
+.button {
+	background-color: rgb(100, 167, 11);
+	border: none;
+	padding: 12px;
+	margin: 7px;
+}
+
+footer {
+	outline: 1px soild white;
+}
+
+/*======footer classes======*/
+.sponsors {
+	height: 150px;
+	background-color: rgb(196, 191, 182);
+	text-align: center;
+	padding: 78px 0 0 0;
+	
+}
+
+.sponsors p {
+	display: inline;
+	padding: 5px;
+	width: 50%;
+}
+.other {
+	height: 50px;
+	background-color: rgb(51, 63, 72);
+}
+
+.other p {
+	padding: 15px 0 0 20px;
+}

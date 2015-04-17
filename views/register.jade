@@ -1,0 +1,32 @@
+extends layout
+
+block content
+	div(class="content")
+		section(class='information')
+			h2 Your Profile
+			div(class="form")
+				form(method="post", action="/register")
+					p Vehicle License Plate Number:
+					input(class="input", name="plateNumber", placeholder="License Plate Number", maxlength="10", required)
+					br
+					p Vehicle Manufacture:
+					input(class="input", name="manufacture", placeholder=" vehicle manufacture", maxlength="20", required)
+					br
+					p Vehicle Model:
+					input(class="input", name="model", placeholder="vehicle model", maxlength="20", required)
+					br  
+					p Vehicle Year:
+					input(class="input", name="year", placeholder="vehicle year", required)
+					br    
+					p Are you:
+					select(name="category", class="option")
+						option(value="faculty") Faculty
+						option(value="student") Student
+						option(value="staff") Staff
+						option(value="visitor") Visitor
+						option(value="other") Other
+					br  
+					p Postal code of your residence:
+					input(class="input", name="postalCode", placeholder="Enter Postal Code", maxlength="8", required)
+					section(class='buttons') 
+						button(type="submit", class='button') Start Charging
