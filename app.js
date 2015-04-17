@@ -40,6 +40,10 @@ app.use('/', term);
 var register = require('./routes/register');
 app.use('/', register);
 
+//message routes
+var message = require('./routes/message');
+app.use('/', message);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

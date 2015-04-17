@@ -10,11 +10,12 @@ body {
 	width: 100%;
 	font-family: avenir, helvetica, san-serif;
     font-family: 'Lato';
-	color: white;
+	color: #fff;
 	background: rgb(0,75,135);
 	background-image: url(/images/background_249.98.png);
 	background-position: top right;
 	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 /*======Header======*/
@@ -22,7 +23,15 @@ header {
 	padding: 10px;
 	/*outline: 1px solid white;*/
 }
+h1 {
+	text-align: center;
+	color: #fff;
+}
 
+h4 {
+	text-align: center;
+	font-size: 50px;
+}
 /*===Section==*/
 section {
 	text-align: center;
@@ -40,6 +49,15 @@ h2 {
 p {
 	font-size: 12px;
 	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff;
 }
 
 /*========Section class for Information=======*/
@@ -104,10 +122,9 @@ footer {
 
 /*======footer classes======*/
 .sponsors {
-	height: 150px;
 	background-color: rgb(196, 191, 182);
 	text-align: center;
-	padding: 78px 0 0 0;
+	padding: 50px;
 	
 }
 
